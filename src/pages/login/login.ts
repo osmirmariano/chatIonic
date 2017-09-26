@@ -52,7 +52,7 @@ export class Login {
                         buttons: [
                             {
                                 text: "Ok",
-                                role: 'cancel'
+                                role: 'Cancelar'
                             }
                         ]
                     });

@@ -20,14 +20,14 @@ export class MyApp {
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
 
-      var config = {
-          apiKey: "AIzaSyAh1LL-VlwlSE82mgkunIxt7tPvLnoJXB4",
-          authDomain: "mychatapp-75dc9.firebaseapp.com",
-          databaseURL: "https://mychatapp-75dc9.firebaseio.com",
-          projectId: "mychatapp-75dc9",
-          storageBucket: "mychatapp-75dc9.appspot.com",
-          messagingSenderId: "1041112918865"
-      };
+    var config = {
+        apiKey: "AIzaSyCyiJqTtAhS8MljWml7-PoWqo3OWvtYlxI",
+        authDomain: "chatamigos-9ef0d.firebaseapp.com",
+        databaseURL: "https://chatamigos-9ef0d.firebaseio.com",
+        projectId: "chatamigos-9ef0d",
+        storageBucket: "",
+        messagingSenderId: "422562944988"
+    };
       firebase.initializeApp(config);
 
       firebase.auth().onAuthStateChanged((user) => {
