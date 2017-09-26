@@ -1,2 +1,5 @@
-# chatIonic
-Implementação de um chat em ionic 3
+# ionic-firebase-chat
+
+#npm install 
+#cordova platform add android
+#cordova build android
